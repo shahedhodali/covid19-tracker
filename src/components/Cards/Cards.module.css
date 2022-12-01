@@ -1,0 +1,114 @@
+.GlobalStatistics{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+}
+.sectionTitle{
+    margin-top: 20px !important;
+    color: transparent;
+    background: #333;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(25,92,133,0.8);
+    font-size: 1.4em !important;
+    font-weight: bold !important;
+    text-transform: capitalize;
+    text-align: center;
+  }
+.GlobalStatistics  .card {
+    margin: 0 2% !important;
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  
+  .cases {
+    border-bottom: 15px solid rgba(255, 173, 31, 0.5);
+  }
+  
+  .recovere{
+    border-bottom: 15px solid rgba(0, 255, 0, 0.5);
+  }
+  
+  .deaths{
+    border-bottom: 15px solid rgba(255, 0, 0, 0.5);
+  }
+
+  .smallimage {
+    width: 64px;
+    height: 64px;
+  }
+
+  .search{
+    width: 240px;
+    padding: 0.35rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #111;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    box-shadow: inset 0 0 0 transparent;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: 10px auto 15px auto;
+    text-align: center;
+    outline: none;
+    display: flex;
+  }
+
+  .search:focus{
+    border: 1px solid #87CEE9;
+  } 
+  .countriesStatistics{
+    margin: 10px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+
+.countriesStatistics .card{
+    background-color: #f0f6f7;
+    border-bottom: 1px solid #ced4da; 
+    padding: 0 !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 0 !important;
+    align-items:baseline
+}
+
+.countriesStatistics .card .content{
+    border-radius: 0 !important;
+    width: 100px !important;
+ }
+
+.countriesStatistics .card .content p{
+   padding: 0;
+   margin: 0.6em 0;
+   font-size: 0.9em;
+}
+  @media (max-width: 768px) {  
+    .GlobalStatistics {
+        flex-direction: column;
+      }
+    .GlobalStatistics .card {
+        margin: 15px 0 !important;
+        max-width: 100%;
+        flex-basis: 100%;
+      }
+    .countriesStatistics .card .content{
+        width: inherit !important;
+     }
+  }
+
+  @media (max-width: 1000px) {
+    .GlobalStatistics .card {
+      margin: 2% 0 !important;
+    }
+  }
