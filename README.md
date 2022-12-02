@@ -1,6 +1,8 @@
 # covid19-tracker
 Corona Tracker built by react js
-![image](https://user-images.githubusercontent.com/19249620/205326695-89db43d3-2f09-4a67-a856-c09c0b0fa0ac.png)
+
+![image](https://user-images.githubusercontent.com/19249620/205326976-161ae1f4-01a6-4bff-9bfc-f16d6e414e97.png)
+
 
 
 ## Introduction
