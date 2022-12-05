@@ -71,7 +71,7 @@ function Cards() {
                 <p><strong>Deaths</strong></p>
             </div>
         </CardContent>
-         { countries ? (countries.filter(({ Country }) => Country.includes(searchResults)).map((value, index) => (    
+         { countries ? (countries.filter(({ Country }) => Country.toLowerCase().includes(searchResults.toLowerCase())).map((value, index) => (    
          <CardContent key={index} component={Card} className={styles.card}>
             <div className={styles.content}>
                 <p>{value['Country']}</p>
