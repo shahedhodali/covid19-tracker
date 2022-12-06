@@ -109,6 +109,6 @@
 
   @media (max-width: 1000px) {
     .GlobalStatistics .card {
-      margin: 2% 0 !important;
+      margin: 2% 2% !important;
     }
   }
